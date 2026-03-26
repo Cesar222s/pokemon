@@ -1,0 +1,70 @@
+{
+  "id": "com.serviciomaestro.pokedex",
+  "name": "Pokedex",
+  "short_name": "Pokedex",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "description": "PWA de Pokedex con equipos, favoritos y detalles de Pokémon.",
+  "shortcuts": [
+    {
+      "name": "Favoritos",
+      "short_name": "Favoritos",
+      "url": "/favorites",
+      "icons": [{ "src": "/icons/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Equipos",
+      "short_name": "Equipos",
+      "url": "/teams",
+      "icons": [{ "src": "/icons/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Amigos",
+      "short_name": "Amigos",
+      "url": "/friends",
+      "icons": [{ "src": "/icons/pwa-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/pwa-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/pwa-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any monochrome"
+    },
+    {
+      "src": "/icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
