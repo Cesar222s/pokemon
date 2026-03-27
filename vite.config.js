@@ -19,6 +19,7 @@ export default defineConfig({
     host: true,
     port: 4173,
     strictPort: true,
+    allowedHosts: ['pokemon-production-ab2a.up.railway.app'],
   },
   resolve: {
     alias: {
